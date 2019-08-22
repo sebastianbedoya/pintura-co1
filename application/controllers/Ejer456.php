@@ -21,7 +21,12 @@ class Ejer456 extends CI_Controller {
     } else {
         echo "Es primo";
     }
-	
-
+    public function ejercio5(){
+    $contador=0;
+    while($contador<26){
+        $nota1=rand(1,5);
+        $nota2=$nota1+$nota2
+    }
+    $nota2/25;
 }
 }
