@@ -4,9 +4,9 @@
 <form action="<?php echo base_url() ?>index.php/Ejer123/ejercio1/" method="POST" >
     <input type="text" name="num1">
     <button>enviar</button>
-    <h1>escribra el valor de numero del mes</h1>
+   
 </form>     
-
+<h1>escribra el valor de numero del mes</h1>
 <form action="<?php echo base_url() ?>index.php/Ejer123/ejercio2/" method="POST" >
     <input type="text" name="num1">
     <button>enviar</button>

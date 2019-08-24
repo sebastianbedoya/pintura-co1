@@ -8,27 +8,19 @@ class Ejer456 extends CI_Controller {
 	{
 		$this->load->view('viewEjercios');
   	}
-  	public function ejercio4(){
-  	$valor=rand(1,50);
-	$primo=0
-    for($b = 1;$b < $valor; $b++){
-        if($valor % $b == 0){
-            $primo++;
-        }
-    }
-    if($primo >= 2 ){
-        echo "No es primo";
-    } else {
-        echo "Es primo";
-    }
-    }
-    public function ejercio5(){
+    public function ejercio6(){
     $contador=0;
-    while($contador<26){
+    $estudiante=0;
+    $nota2=0;
+    while($contador<25){
         $nota1=rand(1,5);
-        $nota2=$nota1+$nota2
-        $contador=$contador+1
+        $nota2=$nota1+$nota2;
+        $contador=$contador+1;
+        $estudiante=$estudiante+1;
+        echo "el estudiante=>" ,$estudiante, "  saco la nota: ",$nota1;
+        echo "<br>";
     }
-    $nota2/25;
+    $nota2=$nota2/25;
+    echo $nota2;
     }
 }
